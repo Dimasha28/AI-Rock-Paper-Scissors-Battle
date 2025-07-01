@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  background: linear-gradient(to bottom right, #fbc2eb, #a6c1ee);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+h1{
+  color: #fff;
+  text-shadow: 2px 2px #333;
+  margin-top: 20px;
+}
+
+#controls {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #357ABD;
+}
+
+
+#choices button {
+  font-size: 24px;
+}
+
+.image {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.image img {
+  width: 450px;
+  max-width: 140%;
+}
