@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Rock-Paper-Scissors Battle</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>🤖 AI Rock-Paper-Scissors Battle</h1>
+  <div id="controls">
+    <button id="startBtn">Start Game</button>
+    <button id="pauseBtn">Pause</button>
+    <button id="restartBtn">Restart</button>
+  </div>
+
+  <div id="game" style="display:none;"></div>
+  <p id="status">Choose Rock, Paper, or Scissors!</p>
+
+  <div id="choices">
+    <button onclick="playerMove('rock')">🪨Rock</button>
+    <button onclick="playerMove('paper')">📄 Paper</button>
+    <button onclick="playerMove('scissors')">✂️ Scissors</button>
+  </div>
+
+  <div>
+    <p id="aiChoice"></p>
+    <p id="result"></p>
+    <p id="score">Your Score: 0 | AI Score: 0</p>
+  </div>
+
+  <div>
+    <div class="image">
+      <img src="/img/image.png" alt="Game Graphic">
+  </div>
+
+    <script src="/main.js"></script>
+  
+  </body>
+</html>
+
